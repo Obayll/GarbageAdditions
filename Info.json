@@ -1,0 +1,10 @@
+{
+  "Id": "GarbageAdditions",
+  "DisplayName": "Garbage Additions",
+  "Author": "Obayll",
+  "Version": "1.0.0.0",
+  "ManagerVersion": "1.0.0",
+  "Requirements": [],
+  "AssemblyName": "GarbageAdditions.dll",
+  "EntryMethod": "GarbageAdditions.Main.Load"
+}

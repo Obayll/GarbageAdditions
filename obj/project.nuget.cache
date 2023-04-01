@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NH3RABwdloyziZtnh6Kj1jgq3ecSzAQKLeCbVLvNjOZRd8c7EYp51TOoocBJ9MTKjWecdByqZooA7xy4RxPt2g==",
+  "dgSpecHash": "7XBvGD7VvKhohM+zlfYn7EOF4bJ3Zvx3MZworZNkUnRXvKJqNTxqWnU/2QZE/pA5Zf2SYRYYKdYq81sH+Y4GCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dajor\\source\\repos\\WrathMod\\WrathMod.csproj",
+  "projectFilePath": "C:\\Users\\dajor\\source\\repos\\GarbageAdditions\\GarbageAdditions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dajor\\.nuget\\packages\\assemblypublicizer\\1.0.2\\assemblypublicizer.1.0.2.nupkg.sha512",
     "C:\\Users\\dajor\\.nuget\\packages\\ilrepack.msbuild.task\\2.0.13\\ilrepack.msbuild.task.2.0.13.nupkg.sha512",

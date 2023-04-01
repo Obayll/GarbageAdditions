@@ -1,0 +1,14 @@
+[
+  {
+    "Key": "Kitsune.Heritage.Feral.DisplayName",
+    "ProcessTemplates": false,
+    "enGB": "Feral Kitsune"
+  },
+
+  {
+    "Key": "Kitsune.Heritage.Feral.Description",
+    "ProcessTemplates": false,
+    "enGB": "Feral kitstune are the savage counterparts to their more civilized kin. Usually isolating themselves in the wild, they care more about strength and survival than scholarly pursuits. These kitsune gain +2 {g|Encyclopedia:Strength}Strength{/g}, +2 {g|Encyclopedia:Constitution}Constitution{/g}, and -2 {g|Encyclopedia:Intelligence}Intelligence{/g}. This racial {g|Encyclopedia:Trait}trait{/g} alters the kitsune's {g|Encyclopedia:Ability_Scores}ability score{/g} modifiers.'"
+  }
+]
+
