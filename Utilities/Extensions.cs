@@ -27,6 +27,17 @@ namespace GarbageAdditions.Utilities
         }
 
         // https://github.com/Vek17/TabletopTweaks-Core/blob/master/TabletopTweaks-Core/Utilities/BlueprintTools.cs
+        public static T GetBlueprintReference<T>(string id) where T : BlueprintReferenceBase
+        {
+            var assetId = BlueprintGuid.Parse(id);
+            return GetBlueprintReference<T>(assetId);
+        }
+        public static T GetBlueprintReference<T>(BlueprintGuid id) where T : BlueprintReferenceBase
+        {
+            var reference = Activator.CreateInstance<T>();
+            reference.deserializedGuid = id;
+            return reference;
+        }
         public static T GetBlueprint<T>(string id) where T : SimpleBlueprint
         {
             var assetId = BlueprintGuid.Parse(id);
@@ -36,7 +47,6 @@ namespace GarbageAdditions.Utilities
         {
             SimpleBlueprint asset = ResourcesLibrary.TryGetBlueprint(id);
             T value = asset as T;
-            //if (value == null) { Main.TTTContext.Logger.LogError($"COULD NOT LOAD BLUEPRINT: {id} - {typeof(T)}"); }
             return value;
         }
     }

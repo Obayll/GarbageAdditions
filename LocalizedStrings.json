@@ -8,7 +8,20 @@
   {
     "Key": "Kitsune.Heritage.Feral.Description",
     "ProcessTemplates": false,
-    "enGB": "Feral kitstune are the savage counterparts to their more civilized kin. Usually isolating themselves in the wild, they care more about strength and survival than scholarly pursuits. These kitsune gain +2 {g|Encyclopedia:Strength}Strength{/g}, +2 {g|Encyclopedia:Constitution}Constitution{/g}, and -2 {g|Encyclopedia:Intelligence}Intelligence{/g}. This racial {g|Encyclopedia:Trait}trait{/g} alters the kitsune's {g|Encyclopedia:Ability_Scores}ability score{/g} modifiers.'"
+    "enGB": "Feral kitstune are the savage counterparts to their more civilized kin, caring more about strength and survival than scholarly pursuits. These kitsune gain +2 {g|Encyclopedia:Strength}Strength{/g}, +2 {g|Encyclopedia:Constitution}Constitution{/g}, and -2 {g|Encyclopedia:Intelligence}Intelligence{/g}. This racial {g|Encyclopedia:Trait}trait{/g} alters the kitsune's {g|Encyclopedia:Ability_Scores}ability score{/g} modifiers.'"
+  },
+
+  {
+    "Key": "Background.ExoticWarrior.DisplayName",
+    "ProcessTemplates": false,
+    "enGB": "Exotic Warrior"
+  },
+
+  {
+    "Key": "Background.ExoticWarrior.Description",
+    "ProcessTemplates": false,
+    "enGB": "Exotic Warrior adds {g|Encyclopedia:Athletics}Athletics{/g} and {g|Encyclopedia:Mobility}Mobility{/g} to the list of her class {g|Encyclopedia:Skills}skills{/g}. She also becomes proficient with light armor and elven curved blades.\nIf the character already has the class skill, {g|Encyclopedia:Weapon_Proficiency}weapon proficiency{/g} or armor proficiency granted by the selected background from her class during character creation, then the corresponding {g|Encyclopedia:Bonus}bonuses{/g} from background change to a +1 competence bonus in case of skills, a +1 enhancement bonus in case of weapon proficiency and a -1 Armor {g|Encyclopedia:Check}Check{/g} {g|Encyclopedia:Penalty}Penalty{/g} reduction in case of armor proficiency."
+
   }
 ]
 

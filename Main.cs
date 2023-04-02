@@ -4,6 +4,7 @@ using HarmonyLib;
 using BlueprintCore.Utils;
 using BlueprintCore.Blueprints.Configurators.Root;
 using Kingmaker.Blueprints.JsonSystem;
+using GarbageAdditions.Backgrounds;
 using GarbageAdditions.Heritages;
 
 namespace GarbageAdditions
@@ -57,8 +58,11 @@ namespace GarbageAdditions
                     Initialized = true;
 
                     Logger.Info("Configuring heritage blueprints.");
-                    FeralKitsune.Configure();
+                    KitsuneFeral.Configure();
 
+
+                    Logger.Info("Configuring background blueprints.");
+                    ExoticWarrior.Configure();
                 }
                 catch (Exception e)
                 {
