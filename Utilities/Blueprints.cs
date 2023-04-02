@@ -1,4 +1,5 @@
 ﻿using Kingmaker.Blueprints;
+using Kingmaker.Blueprints.Classes;
 
 namespace GarbageAdditions.Utilities
 {
@@ -18,6 +19,16 @@ namespace GarbageAdditions.Utilities
 
         #region Background Selections
         public static BlueprintFeatureSelectionReference BackgroundWarriorSelectionRef => Extensions.GetBlueprintReference<BlueprintFeatureSelectionReference>("291f372e27b29f149ad15ff219fe15d9");
+        #endregion
+
+        #region Classes
+        public static BlueprintCharacterClass FighterClass => Extensions.GetBlueprint<BlueprintCharacterClass>("48ac8db94d5de7645906c7d0ad3bcfbd");
+
+        public static BlueprintCharacterClassReference FighterClassRef => Extensions.GetBlueprintReference<BlueprintCharacterClassReference>("48ac8db94d5de7645906c7d0ad3bcfbd");
+        #endregion
+
+        #region Archetypes
+        public static BlueprintArchetypeReference TwoHandedFighterArchetypeRef => Extensions.GetBlueprintReference<BlueprintArchetypeReference>("84643e02a764bff4a9c1aba333a53c89");
         #endregion
     }
 }
