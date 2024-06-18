@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = GarbageAdditions
-build_property.ProjectDir = C:\Users\dajor\source\repos\GarbageAdditions\
+build_property.ProjectDir = C:\Users\dajor\Documents\GitHub\GarbageAdditions\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
