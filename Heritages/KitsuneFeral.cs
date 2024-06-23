@@ -19,8 +19,8 @@ namespace GarbageAdditions.Heritages
                 .SetDisplayName(FeralDisplayName)
                 .SetDescription(FeralDescription)
                 .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Strength, value: 2)
-                .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Constitution, value: 2)
-                .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Intelligence, value: -2)
+                .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Intelligence, value: 2)
+                .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Charisma, value: -2)
                 .Configure();
         }
     }
